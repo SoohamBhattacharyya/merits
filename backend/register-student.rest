@@ -1,0 +1,12 @@
+POST http://localhost:5000/api/student/register
+Content-Type: application/json
+
+{
+  "name": "Shagun Jha",
+  "email": "shagun@example.com",
+  "institute": "Techno Main Salt Lake",
+  "age": 21,
+  "department": "Cyber Security",
+  "phone": "9693030149",
+  "password": "shagun123"
+}

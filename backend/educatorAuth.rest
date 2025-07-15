@@ -1,0 +1,27 @@
+
+### Educator Register
+POST http://localhost:5000/api/educator/register
+Content-Type: application/json
+
+{
+  "name": "Soham Bhattacharyya",
+  "email": "soham@educator.com",
+  "institute": "Techno Main Salt Lake",
+  "password": "educator123",
+  "phone":"123456789"
+}
+### Educator Login
+POST http://localhost:5000/api/educator/login
+Content-Type: application/json
+
+{
+  "email": "soham@educator.com",
+  "password": "educator123"
+}
+
+### Educator Profile
+#GET http://localhost:5000/api/educator/profile
+#Authorization: Bearer {{TOKEN_HERE}} */
+### ✅ Educator Profile (Protected)
+GET http://localhost:5000/api/educator/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzYwYmUyMzNjNjU3ZTI0NzdjYTJhYiIsInJvbGUiOiJlZHVjYXRvciIsImlhdCI6MTc1MjU2Njk5NSwiZXhwIjoxNzUyNjUzMzk1fQ.fRlfJurPqalFGfJDJW8qP4wnM4nGlX77NoJWyYZF4T4
