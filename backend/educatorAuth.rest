@@ -23,5 +23,4 @@ Content-Type: application/json
 #GET http://localhost:5000/api/educator/profile
 #Authorization: Bearer {{TOKEN_HERE}} */
 ### ✅ Educator Profile (Protected)
-GET http://localhost:5000/api/educator/profile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NzYwYmUyMzNjNjU3ZTI0NzdjYTJhYiIsInJvbGUiOiJlZHVjYXRvciIsImlhdCI6MTc1MjU2Njk5NSwiZXhwIjoxNzUyNjUzMzk1fQ.fRlfJurPqalFGfJDJW8qP4wnM4nGlX77NoJWyYZF4T4
+
